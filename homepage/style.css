@@ -9,6 +9,7 @@
 	margin-left: 20px;
 	margin-bottom: 20px;
 	text-shadow: 2px 1px #616463;
+	transpa
 }
 
 #tagline{
@@ -22,3 +23,20 @@
 	margin-left:1px;
 	margin-bottom: 20px;
 	}
+
+#loginarea{
+	float:left;
+	width: 200px;
+	font-family: "comic sans", sans-serif;
+	clear: both;
+	margin-top:150px;
+	margin-left: 600px;
+	font-weight: bold; 
+	color:#0575B3;
+	padding:30px;
+	border: 3px solid #086599;
+}
+
+#loginmsg{
+	color: red;
+}
