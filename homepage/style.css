@@ -22,7 +22,25 @@ body, html {
   position: absolute;
   top:0%;
   left:0%;
+
 }
+
+#brandname a{
+	  	text-decoration:none;
+}
+
+#brandname a:link, a:visited {
+  color: #389C66;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#brandname a:hover, #brandname a:active {
+  color: #41A971;
+}
+
+
 
 .bg-image {
   /* The image used */
@@ -52,7 +70,8 @@ body, html {
 .form {
     font-family: "josefin sans", sans-serif;
   background-color: rgba(183,227,204, 0.3); /* Black w/opacity/see-through */
-  color:#08311B;
+  color: #06311A;
+  font-weight:500;
   font-size: 20px;
   border: 1px solid #F19B40;
   position: absolute;
@@ -64,6 +83,7 @@ body, html {
   padding: 20px;
   text-align: center;
   border-radius: 20px;
+  opacity:100%;
 }
 
 div p{
