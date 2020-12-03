@@ -13,18 +13,18 @@
 	<form class="login-form"><br>
 <p>USERNAME</p><input class="usrinp" type="text" placeholder="Username">
 <p>PASSWORD</p><input class="usrinp" type="PASSWORD" placeholder="Password"><br>
-<button id="submitbtn" onclick="submit();">Log in</button>
+<button id="loginbtn" onclick="login();">Log in</button>
 <p id="loginmsg"></p>
 <p class="message">Not Registered?<a href="#"> Register</a></p>
 </form>
 
 <form class="register-form"><br>
-<p>NAME</p><input class="usrinp" type="text" placeholder="Your name">
-<p>USERNAME</p><input class="usrinp" type="text" placeholder="Username">
-<p>PASSWORD</p><input class="usrinp" type="PASSWORD" placeholder="Password">
-<p>CONFIRM PASSWORD</p><input class="usrinp" type="text" placeholder="Re-type Password">
+<p>NAME</p><input class="usrinp" id="name" type="text" placeholder="Your name">
+<p>USERNAME</p><input class="usrinp" id="username" type="text" placeholder="Username">
+<p>PASSWORD</p><input class="usrinp" id="password" type="password" placeholder="Password">
+<p>CONFIRM PASSWORD</p><input class="usrinp" id="cpassword" type="text" placeholder="Re-type Password">
 <br>
-<button id="submitbtn" onclick="submit();">Register</button>
+<button id="registerbtn">Register</button>
 <p id="registermsg"></p>
 <p class="message">Already Registered?<a href="#"> Login</a></p>
 </form>

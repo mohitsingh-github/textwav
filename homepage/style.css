@@ -104,7 +104,7 @@ font size: 17px;
 
 }
 
-#submitbtn{
+#registerbtn{
 	font-family: "josefin sans", sans-serif;
 	box-sizing: border-box;	
 text-transform: uppercase;
@@ -118,7 +118,27 @@ font-size: 14px;
 cursor: pointer;
 margin-top: 9px;
 }
-#submitbtn:hover{
+#registerbtn:hover{
+font-size: 15px;
+font-weight: 300;
+background: #0F9C4F;
+}
+
+#loginbtn{
+	font-family: "josefin sans", sans-serif;
+	box-sizing: border-box;	
+text-transform: uppercase;
+outline: 0;
+background: #358258;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #fff;
+font-size: 14px;
+cursor: pointer;
+margin-top: 9px;
+}
+#loginbtn:hover{
 font-size: 15px;
 font-weight: 300;
 background: #0F9C4F;
