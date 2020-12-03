@@ -9,8 +9,7 @@ console.log("redirecting to profile")
 }
 else{
 	document.getElementById("loginmsg") .textContent = "wrong password";
-}
 
 }
 
-
+}
