@@ -11,8 +11,8 @@
 	</div>
 <div class="form">
 	<form class="login-form"><br>
-<p>USERNAME</p><input class="usrinp" type="text" placeholder="Username">
-<p>PASSWORD</p><input class="usrinp" type="PASSWORD" placeholder="Password"><br>
+<p>USERNAME</p><input class="usrinp" id="usernamelogin" type="text" placeholder="Username">
+<p>PASSWORD</p><input class="usrinp" id="passwordlogin" type="PASSWORD" placeholder="Password"><br>
 <button id="loginbtn" onclick="login();">Log in</button>
 <p id="loginmsg"></p>
 <p class="message">Not Registered?<a href="#"> Register</a></p>
@@ -24,7 +24,7 @@
 <p>PASSWORD</p><input class="usrinp" id="password" type="password" placeholder="Password">
 <p>CONFIRM PASSWORD</p><input class="usrinp" id="cpassword" type="text" placeholder="Re-type Password">
 <br>
-<button id="registerbtn">Register</button>
+<button id="registerbtn" onclick="registerUser()">Register</button>
 <p id="registermsg"></p>
 <p class="message">Already Registered?<a href="#"> Login</a></p>
 </form>
