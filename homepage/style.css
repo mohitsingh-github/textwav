@@ -104,14 +104,14 @@ font-weight: 300;
 background: #0F9C4F;
 }
 
-#registerlink{
-font-size: 16px;
-margin-top: 15px;
-margin-bottom: 13px;
-}
-
 .message a{
 	text-decoration:none;
+}
+
+.message{
+	font-size: 16px;
+margin-top: 15px;
+margin-bottom: 13px;
 }
 
 
