@@ -1,3 +1,15 @@
+*{
+	margin: auto;
+	 box-sizing: border-box;
+}
+ 
+
+
+body{
+  background-image: url("bg.jpg") ;
+}
+
+
 #brandname{
 	font-family: "josefin sans", sans-serif;
 	float: left;
@@ -5,37 +17,48 @@
 	text-align: left;
 	font-size: 50px;
 	font-weight: bold; 
-	margin-top: 20px;
-	margin-left: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 0px;
+	margin-right:0px;
 	margin-bottom: 20px;
+	width: 100%;
 	text-shadow: 2px 1px #616463;
-	transpa
+	background-color: #F19B40;
+	
 }
 
-#tagline{
-	float: left;
-	font-family: "comic sans", sans-serif;
-    text-align: left;
-    color: #BA9607;
-	font-size: 10px;
-	font-weight: bold; 
-	margin-top:58px;
-	margin-left:1px;
-	margin-bottom: 20px;
-	}
 
 #loginarea{
 	float:left;
-	width: 200px;
+	width: 243px;
 	font-family: "comic sans", sans-serif;
 	clear: both;
-	margin-top:150px;
+	margin-top:190px;
 	margin-left: 600px;
-	font-weight: bold; 
-	color:#0575B3;
-	padding:30px;
-	border: 3px solid #086599;
+	color:#042555;
+	padding:35px;
+	border: 3px solid #08663E;
+		background-color: #279466;
+		font-size: 22px;
+
 }
+
+#un{
+
+}
+
+
+#pw{
+
+
+}
+
+#submitbtn{
+
+
+}
+
 
 #loginmsg{
 	color: red;
