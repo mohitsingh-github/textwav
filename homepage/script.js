@@ -7,12 +7,13 @@
 if(usernamelogin && passwordlogin){
         for(let i = 0; i < localStorage.length; i++){
             if(usernamelogin == localStorage.username && passwordlogin == localStorage.password){
-             
+                  alert(localStorage.name+" you are successfully logged in");
+                  return;
             }
         }
     }
-      window.location.reload(); 
-     alert(localStorage.name+" you are successfully logged in");
+     document.location.reload(); 
+
 }
 
 
@@ -27,7 +28,7 @@ if(password==cpassword){
   localStorage.setItem("username", username);
         localStorage.setItem("password", password);
                 localStorage.setItem("name", name);
-                window.location.reload();
+                document.location.reload();
                 alert(localStorage.name+" you are successfully registered");
 }
 }
