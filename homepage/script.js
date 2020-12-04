@@ -9,6 +9,7 @@ if(usernamelogin && passwordlogin){
             if(usernamelogin == localStorage.username && passwordlogin == localStorage.password){
                    location.reload();
                    alert(localStorage.name+" you are successfully logged in");
+                   return;
             }
         }
     }
