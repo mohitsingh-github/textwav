@@ -7,13 +7,11 @@
 if(usernamelogin && passwordlogin){
         for(let i = 0; i < localStorage.length; i++){
             if(usernamelogin == localStorage.username && passwordlogin == localStorage.password){
-                  alert(localStorage.name+" you are successfully logged in");
-                
+                    window.location.href = "https://mohitsingh-github.github.io/coursera-test/module5-solution/";
             }
-            return;
         }
     }
-    window.location.href = "https://mohitsingh-github.github.io/coursera-test/module5-solution/";
+
 
 }
 
