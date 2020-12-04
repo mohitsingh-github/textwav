@@ -7,11 +7,11 @@
 if(usernamelogin && passwordlogin){
         for(let i = 0; i < localStorage.length; i++){
             if(usernamelogin == localStorage.username && passwordlogin == localStorage.password){
-               window.location.reload();
-               alert(localStorage.name+" you are successfully logged in"); 
-            }
+               window.location.reload(); 
             }
         }
+    }
+     alert(localStorage.name+" you are successfully logged in");
 }
 
 
