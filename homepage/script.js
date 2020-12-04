@@ -12,7 +12,9 @@ if(usernamelogin && passwordlogin){
             }
         }
     }
-  alert(localStorage.name+" is successfully logged in");
+ 
+  document.location.reload(true);
+   alert(localStorage.name+" you are successfully logged in");
 }
 
 
@@ -22,12 +24,12 @@ if(usernamelogin && passwordlogin){
     var password = document.getElementById("password").value;
     var cpassword = document.getElementById("cpassword").value;
     var name = document.getElementById("name").value;
-    location.reload(); 
 if(username && password && name){
 if(password==cpassword){ 
   localStorage.setItem("username", username);
         localStorage.setItem("password", password);
                 localStorage.setItem("name", name);
+                document.location.reload(true);
                 alert(localStorage.name+" you are successfully registered");
 }
 }
