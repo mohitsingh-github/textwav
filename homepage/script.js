@@ -13,7 +13,7 @@ if(usernamelogin && passwordlogin){
         }
     }
  
-  document.location.reload(true);
+  window.location.reload(true);
    alert(localStorage.name+" you are successfully logged in");
 }
 
@@ -29,7 +29,7 @@ if(password==cpassword){
   localStorage.setItem("username", username);
         localStorage.setItem("password", password);
                 localStorage.setItem("name", name);
-                document.location.reload(true);
+                window.location.reload(true);
                 alert(localStorage.name+" you are successfully registered");
 }
 }
