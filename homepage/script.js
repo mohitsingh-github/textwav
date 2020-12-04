@@ -7,7 +7,7 @@
 if(usernamelogin && passwordlogin){
         for(let i = 0; i < localStorage.length; i++){
             if(usernamelogin == localStorage.username && passwordlogin == localStorage.password){
-                    window.location.replace = ("https://mohitsingh-github.github.io/coursera-test/module5-solution/");
+                   location.reload();
             }
         }
     }
@@ -27,7 +27,7 @@ if(password==cpassword){
   localStorage.setItem("username", username);
         localStorage.setItem("password", password);
                 localStorage.setItem("name", name);
-                document.location.reload();
+                location.reload();
                 alert(localStorage.name+" you are successfully registered");
 }
 }
