@@ -8,12 +8,11 @@ if(usernamelogin && passwordlogin){
         for(let i = 0; i < localStorage.length; i++){
             if(usernamelogin == localStorage.username && passwordlogin == localStorage.password){
                    alert(localStorage.name+" you are successfully logged in");
-                   location.reload();
+                   window.location.replace("https://mohitsingh-github.github.io/textwav/homepage/");
                    return;
             }
         }
     }
-
 
 }
 
@@ -29,8 +28,8 @@ if(password==cpassword){
   localStorage.setItem("username", username);
         localStorage.setItem("password", password);
                 localStorage.setItem("name", name);
-                location.reload();
                 alert(localStorage.name+" you are successfully registered");
+                window.location.replace("https://mohitsingh-github.github.io/textwav/homepage/");
 }
 }
 }
