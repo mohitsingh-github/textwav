@@ -3,32 +3,32 @@
 <head>
 	<title>textwav</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body>
 	<div class="bg-image"></div>
 <div id="brandname"><a href="#">textwav</a>
 	</div>
 <div class="form">
-	<form class="login-form"><br>
-<p>USERNAME</p><input class="usrinp" id="usernamelogin" type="text" placeholder="Username">
-<p>PASSWORD</p><input class="usrinp" id="passwordlogin" type="PASSWORD" placeholder="Password"><br>
-<button id="loginbtn" onclick="login();">Log in</button>
+	<form id="login-form" display="block" method="POST"><br>
+<p>USERNAME</p><input class="usrinp" id="usernamelogin" type="text" placeholder="Username" required>
+<p>PASSWORD</p><input class="usrinp" id="passwordlogin" type="PASSWORD" placeholder="Password" required><br>
+<button id="loginbtn">Log in</button>
 <p id="loginmsg"></p>
-<p class="message">Not Registered?<a href="#"> Register</a></p>
+<p id="message" onclick="showr()">Not Registered?<a href="#"> Register</a></p>
 </form>
 
-<form class="register-form"><br>
-<p>NAME</p><input class="usrinp" id="name" type="text" placeholder="Your name">
-<p>USERNAME</p><input class="usrinp" id="username" type="text" placeholder="Username">
-<p>PASSWORD</p><input class="usrinp" id="password" type="password" placeholder="Password">
-<p>CONFIRM PASSWORD</p><input class="usrinp" id="cpassword" type="text" placeholder="Re-type Password">
+<form id="register-form" display="none"  method="POST"><br>
+<p>NAME</p><input class="usrinp" id="name" type="text" placeholder="Your name" required>
+<p>USERNAME</p><input class="usrinp" id="username" type="text" placeholder="Username" required>
+<p>PASSWORD</p><input class="usrinp" id="password_1" type="password" placeholder="Password" required>
+<p>CONFIRM PASSWORD</p><input class="usrinp" id="password_2" type="text" placeholder="Re-type Password" required>
 <br>
-<button id="registerbtn" onclick="register()">Register</button>
+<button id="registerbtn">Register</button>
 <p id="registermsg"></p>
-<p class="message">Already Registered?<a href="#"> Login</a></p>
+<p id="message" onclick="showl()">Already Registered?<a href="#"> Login</a></p>
 </form>
 </div>
-	
+<script src="script.js">
+	</script>
 </body>
 </html>
