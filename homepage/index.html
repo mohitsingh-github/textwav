@@ -11,21 +11,21 @@
 <div id="brandname"><a href="#">textwav</a>
 	</div>
 <div class="form">
-	<form id="login-form" display="block" method="POST"><br>
+	<form id="login-form" display="block" onsubmit="login()"><br>
 <p>USERNAME</p><input class="usrinp" id="usernamelogin" type="text" placeholder="Username" required>
 <p>PASSWORD</p><input class="usrinp" id="passwordlogin" type="PASSWORD" placeholder="Password" required><br>
-<button id="loginbtn">Log in</button>
+<button id="loginbtn" type="submit" value="submit">Log in</button>
 <p id="loginmsg"></p>
 <p id="message" onclick="showr()">Not Registered?<a href="#"> Register</a></p>
 </form>
 
-<form id="register-form" display="none"  method="POST"><br>
+<form id="register-form" display="none" onsubmit="register()"><br>
 <p>NAME</p><input class="usrinp" id="name" type="text" placeholder="Your name" required>
 <p>USERNAME</p><input class="usrinp" id="username" type="text" placeholder="Username" required>
 <p>PASSWORD</p><input class="usrinp" id="password_1" type="password" placeholder="Password" required>
 <p>CONFIRM PASSWORD</p><input class="usrinp" id="password_2" type="text" placeholder="Re-type Password" required>
 <br>
-<button id="registerbtn">Register</button>
+<button id="registerbtn" type="submit" value="submit">Register</button>
 <p id="registermsg"></p>
 <p id="message" onclick="showl()">Already Registered?<a href="#"> Login</a></p>
 </form>
