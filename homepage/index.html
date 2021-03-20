@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>textwav</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js">
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
+	<script src="/static/script.js">
 	</script>
 </head>
 <body>
@@ -11,19 +11,19 @@
 <div id="brandname"><a href="#">textwav</a>
 	</div>
 <div class="form">
-	<form id="login-form" display="block" onsubmit="login()"><br>
-<p>USERNAME</p><input class="usrinp" id="usernamelogin" type="text" placeholder="Username" required>
-<p>PASSWORD</p><input class="usrinp" id="passwordlogin" type="PASSWORD" placeholder="Password" required><br>
+	<form action="/login" id="login-form" display="block" method="post"><br>
+<p>USERNAME</p><input class="usrinp" id="usernamelogin" type="text"  name="usernamelogin" placeholder="Username" required>
+<p>PASSWORD</p><input class="usrinp" id="passwordlogin" type="PASSWORD" name="passwordlogin" placeholder="Password" required><br>
 <button id="loginbtn" type="submit" value="submit">Log in</button>
 <p id="loginmsg"></p>
 <p id="message" onclick="showr()">Not Registered?<a href="#"> Register</a></p>
 </form>
 
-<form id="register-form" display="none" onsubmit="register()"><br>
-<p>NAME</p><input class="usrinp" id="name" type="text" placeholder="Your name" required>
-<p>USERNAME</p><input class="usrinp" id="username" type="text" placeholder="Username" required>
-<p>PASSWORD</p><input class="usrinp" id="password_1" type="password" placeholder="Password" required>
-<p>CONFIRM PASSWORD</p><input class="usrinp" id="password_2" type="text" placeholder="Re-type Password" required>
+<form action="/register" id="register-form" display="none" method="post"><br>
+<p>NAME</p><input class="usrinp" id="name" type="text" name="name" placeholder="Your name" required>
+<p>USERNAME</p><input class="usrinp" id="username" type="text" name="usernameregister" placeholder="Username" required>
+<p>PASSWORD</p><input class="usrinp" id="password_1" type="password" name="passwordregister" placeholder="Password" required>
+<p>CONFIRM PASSWORD</p><input class="usrinp" id="password_2" type="text" name="passwordconfirm" placeholder="Re-type Password" required>
 <br>
 <button id="registerbtn" type="submit" value="submit">Register</button>
 <p id="registermsg"></p>
